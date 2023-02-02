@@ -44,12 +44,12 @@ Command: ```python train.py``` <br>
 > 2.run the train.py <br>
 Command: ```python train.py.py --train_src train/cfgsbt_train.txt --dev_src valid/cfgsbt_valid.txt --model_name cfgsbt``` <br>
 
-## 2.3 train AST-Attendgru
+## 2.4 train AST-Attendgru
 Enter the funcom folder, 
-### 2.3.1 train Raw model
+### 2.4.1 train Raw model
 > run the train.py <br>
 Command: ```python train.py --input-type code_sbt --create-data True --data data/Raw --outdir data/Raw``` <br>
 
-### 2.3.2 train Replace model
-> 2.run the train.py <br>
+### 2.4.2 train Replace model
+> run the train.py <br>
 Command: ```python train.py --input-type code_cfgsbt --create-data True --data data/Replace --outdir data/Replace``` <br>
