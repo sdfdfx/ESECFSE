@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="192.168.3.168" id="f28084e0-2670-4074-b115-c0c92cf38726" localPort="2375" port="22" customName="gpu-server" nameFormat="CUSTOM" username="hilbob" />
+    </configs>
+  </component>
+</project>

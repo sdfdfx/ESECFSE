@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8391baba-7b01-42ee-80e1-63775cf295cd" name="hdeepcom">
+        <fileTransfer accessType="SFTP" host="ssh.schoolresearch.one" port="21168" sshConfigId="0e805657-4b8c-420a-b5f5-ef3faec79f43" sshConfig="hilbob@ssh.schoolresearch.one:21168 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ad59715c-ba0b-4b71-8c50-93b73373ebdf" name="code2">
+        <fileTransfer accessType="SFTP" host="211.66.130.46" port="2022" sshConfigId="e1dccee1-c04d-488b-8fec-4222567b0fd6" sshConfig="hjb@211.66.130.46:2022 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@docker://pytorch:1.9.0/python" />
+        <remote-mappings server-id="python@sftp://hjb@211.66.130.46:2022/home/hjb/MY_ENVS/pytorch1.9/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/hjb/comment_generation/dingxi/JinBo/code" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://hilbob@ssh.schoolresearch.one:21168/home/hilbob/MY_ENVS/pytorch1.9/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/hilbob/comment_generation/dingxi/JinBo/code" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>
