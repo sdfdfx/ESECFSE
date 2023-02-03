@@ -1,17 +1,17 @@
 import torch
 import os
 dataset_base_path = r'../10w/'
-keycode_trainset_path = dataset_base_path + 'train/sbtdeepcom_train.txt'
+keycode_trainset_path = dataset_base_path + 'train/code_train.txt'
 sbt_trainset_path = dataset_base_path + 'train/sbtdeepcom_train.txt'
 cfg_trainset_path = dataset_base_path + 'train/cfgsbt_train.txt'
 nl_trainset_path = dataset_base_path + 'train/tgt_train.txt'
 
-keycode_validset_path = dataset_base_path + 'valid/sbtdeepcom_valid.txt'
+keycode_validset_path = dataset_base_path + 'valid/code_valid.txt'
 sbt_validset_path = dataset_base_path + 'valid/sbtdeepcom_valid.txt'
 cfg_validset_path = dataset_base_path + 'valid/cfgsbt_valid.txt'
 nl_validset_path = dataset_base_path + 'valid/tgt_valid.txt'
 
-keycode_testset_path = dataset_base_path + 'test/sbtdeepcom_test.txt'
+keycode_testset_path = dataset_base_path + 'test/code_test.txt'
 sbt_testset_path = dataset_base_path + 'test/sbtdeepcom_test.txt'
 cfg_testset_path = dataset_base_path + 'test/cfgsbt_test.txt'
 nl_testset_path = dataset_base_path + 'test/tgt_test.txt'
